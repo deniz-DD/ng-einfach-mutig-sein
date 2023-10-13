@@ -20,6 +20,7 @@ header{
      display: flex;
      position: fixed;
      z-index: 10; 
+     z-index: 10; 
   }
   .logo{
      width: 100%;
@@ -207,6 +208,13 @@ header{
       height: 6rem;
    }
    .nav-links.open{
+        pointer-events: all;
+        height: 60vh;
+        width: 50%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        z-index: -2;
         top: 6rem;
     }
    
