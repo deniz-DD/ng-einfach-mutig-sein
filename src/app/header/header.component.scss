@@ -9,11 +9,8 @@ $fivth-two-color: #aa648d;
 $sixth-color: #15223b;
 $ex: #ff73a4;
 $seventh-color: #566989;
-
-
 header{
     width: 100%;
-    
   }
   nav{
      height: 5rem;
@@ -22,12 +19,8 @@ header{
      box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
      display: flex;
      position: fixed;
-     z-index: 10;
-    
-     
+     z-index: 10; 
   }
-  
- 
   .logo{
      width: 100%;
      display: flex;
@@ -39,41 +32,24 @@ header{
        height: auto; 
        display: flex;
        justify-content: center;
-       
-       
- 
        .top-span{
           text-align: center; 
           font-size: 18px;
           letter-spacing: 5px;
           border-bottom: 1px solid $ex;
        }
-      
-       
- 
- 
      }
      .bottom-container{
        width: 50%;
        height: auto;
        display: flex;
        justify-content: center;
-       
- 
- 
- 
        .bottom-span{
            text-align: center;
-          //  font-family: 'Charlotte';
            font-size: 9px;
            padding-top: 5px;
- 
        }
- 
-      
- 
      }
-    
      span{
        color: black; 
        font-size: 17px; 
@@ -81,13 +57,8 @@ header{
        letter-spacing: 1px;
        margin-left: 20px;
        text-transform: uppercase;
-        
      }
   }
-  
- 
-  
-
   .nav-links{
      display: flex;
      list-style: none; 
@@ -121,8 +92,6 @@ header{
   .nav-links li a:hover::before{
      width: 80%;
   }
-  
- 
   .login-button{
      background-color: transparent;
      border: 1.5px solid #f2f5f7;
@@ -131,7 +100,6 @@ header{
      margin-left: 2vw;
      font-size: 1rem;
      cursor: pointer;
-  
   }
   .login-button:hover {
      color: #131418;
@@ -154,8 +122,6 @@ header{
      border:1.5px solid #f2f5f7;
      transition: all ease-in-out 350ms;
   }
-  
-  
   .hamburger div{
      width: 30px;
      height:3px;
@@ -166,10 +132,8 @@ header{
   .hamburger{
      display: none;
   }
-  
   @media screen and (max-width: 800px){
      nav{
-  
          position: fixed;
          z-index: 10;
      }
@@ -197,10 +161,8 @@ header{
         left: 0;
         right: 0;
         margin-left: 25%;
- 
      }
      .open{
-      
          pointer-events: all;
          height: 60vh;
          width: 50%;
@@ -213,33 +175,13 @@ header{
          background-color: white;
          border-top: 1px solid #131418;
      }
-     .close{
-       display: none;
-     }
      .nav-links li{
          opacity: 0;
      }
-     .nav-links li:nth-child(1){
-       //   transition: all 0.5s ease 0.2s;
-     }
-     .nav-links li:nth-child(2){
-       //   transition: all 0.5s ease 0.4s;
-     }
-     .nav-links li:nth-child(3){
-       //   transition: all 0.5s ease 0.6s;
-     }
-     .nav-links li:nth-child(4){
-       //   transition: all 0.5s ease 0.7s;
-     }
-     .nav-links li:nth-child(5){
-       //   transition: all 0.5s ease 0.8s;
-     }
      .nav-links li:nth-child(6){
-       //   transition: all 0.5s ease 0.9s;
          margin: 0;
      }
      .nav-links li:nth-child(7){
-       //   transition: all 0.5s ease 1s;
          margin: 0;
      }
     .nav-links li.fate{
@@ -257,8 +199,6 @@ header{
   .toggle .line3{
      transform: rotate(45deg) translate(-5px,-6px);
   }
-
- 
 @media (min-width: 576px) {
    .pt-sm-6{
       padding-top: 4.5rem !important;
@@ -274,8 +214,6 @@ header{
       
    }
    .nav-links.open{
-      //   clip-path: circle(1000px at 90% -10%);
-      //   -webkit-clip-path: circle(1000px at 90% -10%);
         pointer-events: all;
         height: 60vh;
         width: 50%;
@@ -300,40 +238,23 @@ header{
         height: auto; 
         display: flex;
         justify-content: center;
-        
-      //   border-bottom: 3px solid $fivth-two-color;
-  
         .top-span{
            text-align: center; 
            border-bottom: 1px solid $ex;
         }
-       
-        
-  
-  
       }
       .bottom-container{
         width: 100%;
         height: auto;
-        
         display: flex;
         justify-content: center;
-        
-  
-  
-  
         .bottom-span{
             text-align: center;
-            // font-family: 'Charlotte';
             font-size: 9px;
             padding-top: 5px;
-        }
-  
-       
-  
+        }  
       }
-     
-      span{
+           span{
         color: black; 
         font-size: 17px; 
         font-weight:bold; 
@@ -360,8 +281,6 @@ header{
       
    }
    .nav-links.open{
-      //   clip-path: circle(1000px at 90% -10%);
-      //   -webkit-clip-path: circle(1000px at 90% -10%);
         pointer-events: all;
         height: 60vh;
         width: 50%;
@@ -386,33 +305,22 @@ header{
         height: auto; 
         display: flex;
         justify-content: center;
-        
-      //   border-bottom: 3px solid $fivth-two-color;
-  
         .top-span{
            text-align: center; 
            border-bottom: 1px solid $ex;
         }
-
       }
       .bottom-container{
         width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
-        
-  
-  
-  
         .bottom-span{
             text-align: center;
             // font-family: 'Charlotte';
             font-size: 9px;
             padding-top: 5px;
         }
-  
-       
-  
       }
      
       span{
@@ -425,7 +333,6 @@ header{
          
       }
    }
-
 }
 @media(min-width: 992px){
    nav{
@@ -436,9 +343,7 @@ header{
       display: flex;
       position: fixed;
       z-index: 10;
-    
    }
-
    .logo{
       width:35%;
       display: flex;
@@ -450,38 +355,22 @@ header{
         height: auto; 
         display: flex;
         justify-content: center;
-        
-      //   border-bottom: 3px solid $fivth-two-color;
-  
         .top-span{
            text-align: center; 
            border-bottom: 1px solid $ex;
         }
-       
-        
-  
-  
       }
       .bottom-container{
         width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
-        
-  
-  
-  
         .bottom-span{
             text-align: center;
-            // font-family: 'Charlotte';
             font-size: 9px;
             padding-top: 5px;
         }
-  
-       
-  
       }
-     
       span{
         color: black; 
         font-size: 17px; 
@@ -489,11 +378,8 @@ header{
         letter-spacing: 1px;
         margin-left: 20px;
         text-transform: uppercase;
-         
       }
    }
-
-
 }
 @media (min-width: 1200px) { 
    nav{
@@ -504,7 +390,6 @@ header{
       display: flex;
       position: fixed;
       z-index: 10;
-     
    }
    .logo{
       width: 30%;
@@ -517,40 +402,22 @@ header{
         height: auto; 
         display: flex;
         justify-content: center;
-        
-      //   border-bottom: 3px solid $fivth-two-color;
-  
         .top-span{
            text-align: center; 
            border-bottom: 1px solid $ex;
         }
-       
-        
-  
-  
       }
       .bottom-container{
         width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
-        
-  
-  
-  
         .bottom-span{
             text-align: center;
-            // font-family: 'Charlotte';
-            
-
             font-size: 9px;
             padding-top: 5px;
         }
-  
-       
-  
       }
-     
       span{
         color: black; 
         font-size: 17px; 
@@ -558,10 +425,8 @@ header{
         letter-spacing: 1px;
         margin-left: 20px;
         text-transform: uppercase;
-         
       }
    }
-
  }
  @media (min-width: 1400px) { 
    nav{
@@ -572,11 +437,9 @@ header{
       display: flex;
       position: fixed;
       z-index: 10;
-      
    }
    .logo{
       width: 30%;
-      
       display: flex;
       justify-content: center;
       align-items: center;
@@ -585,39 +448,23 @@ header{
         width: 100%;
         height: auto; 
         display: flex;
-        justify-content: center;
-        
-      //   border-bottom: 3px solid $fivth-two-color;
-  
+        justify-content: center;  
         .top-span{
            text-align: center; 
            border-bottom: 1px solid $ex;
         }
-       
-        
-  
-  
       }
       .bottom-container{
         width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
-        
-  
-  
-  
         .bottom-span{
             text-align: center;
-            // font-family: 'Charlotte';
             font-size: 12px;
             padding-top: 5px;
         }
-  
-       
-  
       }
-     
       span{
         color: black; 
         font-size: 17px; 
@@ -625,13 +472,10 @@ header{
         letter-spacing: 1px;
         margin-left: 20px;
         text-transform: uppercase;
-         
       }
    }
-
  }
  @media (min-width: 1700px){
-
    nav{
       height: 6rem;
       width: 100%;
@@ -639,12 +483,10 @@ header{
       box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
       display: flex;
       position: fixed;
-      z-index: 10;
-      
+      z-index: 10; 
    }
    .logo{
       width: 20%;
-   
       display: flex;
       justify-content: center;
       align-items: center;
@@ -654,38 +496,24 @@ header{
         height: auto; 
         display: flex;
         justify-content: center;
-        
-      //   border-bottom: 3px solid $fivth-two-color;
-  
         .top-span{
            text-align: center; 
            border-bottom: 1px solid $ex;
         }
-       
-        
-  
-  
+
       }
       .bottom-container{
         width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
-        
-  
-  
-  
         .bottom-span{
             text-align: center;
-            // font-family: 'Charlotte';
             font-size: 12px;
             padding-top: 5px;
         }
-  
-       
-  
+ 
       }
-     
       span{
         color: black; 
         font-size: 17px; 
@@ -696,7 +524,4 @@ header{
          
       }
    }
-
-
-   
  }
